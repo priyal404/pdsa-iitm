@@ -1,10 +1,6 @@
 # GrPA 1
 
----
-
 ## Question
-
----
 
 Write a function find_Min_Difference(L, P) that accepts a list L of integers and P (positive integer) where the size of L is greater than P. The task is to pick P different elements from the list L, where the difference between the maximum value and the minimum value in selected elements is minimum compared to other differences in possible subset of p elements. The function returns this minimum difference value.
 
@@ -28,8 +24,6 @@ Here, the difference between the maximum value and the minimum value in both sub
 
 ## Solution
 
----
-
 ```
 def find_Min_Difference(L,P):
     L.sort()
@@ -45,13 +39,11 @@ P=int(input())
 print(find_Min_Difference(L,P))
 ```
 
+---
+
 # GrPA 2
 
----
-
 ## Question
-
----
 
 **Goldbach's conjecture** is one of the oldest and best-known unsolved problems in number theory. It states that every even number greater than 2 is the sum of two prime numbers.
 
@@ -74,8 +66,6 @@ Write a function **`Goldbach(n)`** where n is a positive even number(n > 2) that
 
 ## Solution
 
----
-
 ```
 def prime(n):
     if n < 2:
@@ -96,13 +86,11 @@ n=int(input())
 print(sorted(Goldbach(n)))
 ```
 
+---
+
 # GrPA 3
 
----
-
 ## Question
-
----
 
 Write a function named `odd_one(L)` that accepts a list `L` as argument. Except for one element, all other elements in `L` are of the same data type. The function `odd_one` should return the data type of this odd element.
 
@@ -116,8 +104,6 @@ Hint: `type(1)` == `int` evaluates to True.
 
 ## Solution
 
----
-
 ```
 def odd_one(L):
   P = {}
@@ -130,3 +116,5 @@ def odd_one(L):
       return key.__name__
 print(odd_one(eval(input().strip())))
 ```
+
+---
