@@ -3,7 +3,7 @@
 ## Question
 `Twin primes` are pairs of prime numbers that differ by 2. For example (3, 5), (5, 7), and (11,13) are twin primes.
 
-Write a function `Twin_Primes(n, m)` where n and m are positive integers and n < m , that returns all unique twin primes between m and n (both inclusive). The function returns a list of tuples and each tuple (a,b) represents one unique twin prime where n <= a < b <= m.
+Write a function `Twin_Primes(n, m)` where `n` and `m` are positive integers and `n < m` , that returns all unique twin primes between `m` and `n` (both inclusive). The function returns a list of tuples and each tuple `(a,b)` represents one unique twin prime where `n <= a < b <= m`.
 
 ## Solution
 ```
@@ -45,9 +45,9 @@ Create a `Triangle` class that accepts three side-lengths of the triangle as `a`
 - `Angle_Classification()` :- If the triangle is invalid then return `Invalid`. Otherwise, return type of triangle using Pythagoras theorem.
 
 For example if `a <=b <=c`. then
-    - If a2 + b2 > c2 return `Acute`
-    - a2 + b2 = c2 return `Right`
-    - a2 + b2 < c2 return `Obtuse`
+    - If a² + b² > c² return `Acute`
+    - a² + b² = c² return `Right`
+    - a² + b² < c² return `Obtuse`
 
 In the formula of angle classification, the square of the largest side length should be compared to the sum of squares of the other two side lengths.
 
