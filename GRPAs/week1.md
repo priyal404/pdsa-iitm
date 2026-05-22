@@ -16,12 +16,12 @@ If we see the following two subsets of 5 elements from `L`
 
 Here, the difference between the maximum value and the minimum value in both subset is `9 - 3 = 6` or `13 - 7 = 6` which is minimum. So the output will be `6`.
 
-** Sample Input **
+**Sample Input**
 ```
 [3, 4, 1, 9, 56, 7, 9, 12]
 5
 ```
-** Output **
+**Output**
 ```6```
 
 ## Solution
