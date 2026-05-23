@@ -223,9 +223,9 @@ If input list length is odd and the first removed and last removed element are e
 
 **Ans:- 1, 3, 4.**
 
-1.` L = [1, 2, 3, 4, 3, 2, 1]`
-3.` L = [1, 1, 1, 1, 1, 1, 1]`
-4.` L = [8]`
+1. `L = [1, 2, 3, 4, 3, 2, 1]`
+3) `L = [1, 1, 1, 1, 1, 1, 1]`
+4. `L = [8]`
 
 ---
 
