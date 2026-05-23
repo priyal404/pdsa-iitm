@@ -38,6 +38,7 @@ What will be the value of i after execution of the given code-snippet?
 ---
 
 3) Match the following
+
 | Method | Description |
 |-----|-----|
 | (A) `__init__()` | (i) Implements addition with the `+` operator |
