@@ -341,6 +341,7 @@ Feedback:
 
 Call Tree for fun(5) :
 
+```text
 fun(5)
 ├── fun(4)
 │   ├── fun(3)
@@ -356,6 +357,7 @@ fun(5)
     │   ├── fun(1) → 0
     │   └── fun(0) → 0
     └── fun(1) → 0
+```
 
 Total number of calls excluding the root fun(5) = 14
 
