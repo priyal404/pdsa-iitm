@@ -1,0 +1,19 @@
+.gcb-assessment-body {
+  counter-reset: question-number;
+}
+.gcb-question-counter-increment {
+  counter-increment: question-number;
+}
+.gcb-show-question-counter:before {
+  content: counter(question-number) ')';
+}
+
+.gcb-show-question-counter {
+  float: left;
+  padding-right: 5px;
+}
+
+.qt-points {
+  float: right;
+  font-weight: bold;
+}

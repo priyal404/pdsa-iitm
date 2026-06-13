@@ -57,7 +57,7 @@ def combinationSort(strList):
 
 ---
 
-#GrPA 2
+# GrPA 2
 
 ## Question
 
