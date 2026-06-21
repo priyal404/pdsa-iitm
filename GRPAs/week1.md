@@ -69,23 +69,30 @@ Write a function **`Goldbach(n)`** where n is a positive even number(`n > 2`) th
 ## Solution
 
 ```
-def prime(n):
-    if n < 2:
-        return False
-    for i in range(2,n//2+1):
-        if n%i==0:
-            return False
-    return True
-
+import math
 def Goldbach(n):
-    Res=[]
-    for i in range((n//2)+1):
-            if prime(i)==True:
-                if prime(n-i)==True:
-                    Res.append((i,n-i))
-    return(Res)
-n=int(input())
-print(sorted(Goldbach(n)))
+    Res = []
+    for i in range(2, n//2 + 1):
+        isPrime1 = True
+        if i < 2:
+            isPrime1 = False
+        else:
+            for j in range(2, int(math.sqrt(i)) + 1):
+                if i % j == 0:
+                    isPrime1 = False
+                    break
+        other = n - i
+        isPrime2 = True
+        if other < 2:
+            isPrime2 = False
+        else:
+            for j in range(2, int(math.sqrt(other)) + 1):
+                if other % j == 0:
+                    isPrime2 = False
+                    break
+        if isPrime1 and isPrime2:
+            Res.append((i, other))
+    return Res
 ```
 
 ---
