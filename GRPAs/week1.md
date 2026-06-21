@@ -57,13 +57,13 @@ print(find_Min_Difference(L,P))
 
 Write a function **`Goldbach(n)`** where n is a positive even number(`n > 2`) that returns a list of tuples. In each tuple `(a,b)` where `a <= b`, `a` and `b` should be prime numbers and the sum of `a` and `b` should be equal to `n`.
 
-** Sample Input 1 **
+**Sample Input 1**
 ``` 12 ```
-** Output **
+**Output**
 ``` [(5,7)] ```
-** Sample Input 2 **
+**Sample Input 2**
 ``` 26 ```
-** Output **
+**Output**
 ``` [(3,23), (7,19), (13,13)] ```
 
 ## Solution
