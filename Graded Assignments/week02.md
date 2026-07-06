@@ -126,7 +126,7 @@ Which of the following statement(s) is/are correct with regard to the given inse
 
 **Ans:- 1, 4.**
 
-1) The sort is stable and it does not sort in-place
+3) The sort is stable and it sorts in-place
 4. After m iterations of the for-loop, the first m elements in the list are in sorted order
 
 ---
@@ -138,7 +138,7 @@ Which of the following statement(s) is/are correct with regard to the given inse
 1. Store mid as a potential answer and continue searching in the right subarray by setting low = mid + 1 .
 1. Discard mid and search both the left ( high = mid - 1 ) and right ( low = mid + 1 ) subarrays recursively.
 
-**Ans:- 1. Store mid as a potential answer and continue searching in the left subarray by setting high = mid - 1 .**
+**Ans:- 3. Store mid as a potential answer and continue searching in the right subarray by setting low = mid + 1 .**
 
 ---
 
