@@ -1,6 +1,6 @@
 # PDSA Assignment Solutions
 
-This repository contains solutions for the Graded Assignments (GA) and Graded Programming Assignments (GrPAs) **PDSA - Programming, Data Structures and Algorithms using Python (PDSA) - BSCS2002** course offered by IIT Madras in the Diploma Level of the BS in Data Science and Programming Degree.
+This repository contains notes and solutions for the Graded Assignments (GA) and Graded Programming Assignments (GrPAs) **PDSA - Programming, Data Structures and Algorithms using Python (PDSA) - BSCS2002** course offered by IIT Madras in the Diploma Level of the BS in Data Science and Programming Degree.
 
 ## Contents
 
@@ -11,6 +11,14 @@ Solutions to weekly graded assignments are available in the `Graded Assignments`
 ### Graded Programming Assignments (GRPA)
 
 Solutions to programming assignments can be found in the `GRPAs` folder, organized week-wise.
+
+## Notes
+
+All the lectures notes can be found in the `Notes` folder, in their respective week lecture-wise.
+
+Flashcards and Quiz for each lecture can be found in the Google Notebook below.
+
+Link to Google Notebook: https://notebooklm.google.com/notebook/c2c8962f-7ac9-4003-8f78-a3f7cbf05f47
 
 ## Repository Structure
 

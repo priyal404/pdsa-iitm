@@ -177,6 +177,8 @@ If we run Breadth First Search(BFS) on the given graph starting from vertex A , 
 1. A B C E F G D H
 1. A B C G D E F H
 
+**Ans:- 2. A B C G E D F H**
+
 ---
 
 14) Consider a simple undirected connected graph G with **65** edges with the least number of vertices possible. What will be the number of vertices in graph G? (Type: Numeric)
