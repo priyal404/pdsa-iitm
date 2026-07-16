@@ -1,1 +1,5 @@
 GRPAs/.gitattributes
+
+/classwork
+
+/Notes/*.ipynb
