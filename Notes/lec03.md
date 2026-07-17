@@ -206,10 +206,8 @@ $$
 
 Using the well-known formula,
 
-$$
-1+2+\cdots+(n-1)
-=
-\frac{n(n-1)}{2}.
+$$ 
+1+2+\cdots+(n-1) = \frac{n(n-1)}{2}.
 $$
 
 ---
@@ -218,10 +216,8 @@ $$
 
 Expanding,
 
-$$
-\frac{n(n-1)}{2}
-=
-\frac{n^2}{2}-\frac{n}{2}.
+$$ 
+\frac{n(n-1)}{2} = \frac{n^2}{2} - \frac{n}{2}.
 $$
 
 Ignoring the constant factor and the lower-order term,
