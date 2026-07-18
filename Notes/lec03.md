@@ -571,25 +571,19 @@ $$
 Substituting repeatedly,
 
 $$
-M(n)
-=
-2\left(2M(n-2)+1\right)+1.
+M(n) = 2\left(2M(n-2)+1\right)+1.
 $$
 
 Simplifying,
 
 $$
-M(n)
-=
-2^2M(n-2)+2+1.
+M(n) = 2^2M(n-2)+2+1.
 $$
 
 Expanding once more,
 
-$$
-M(n)
-=
-2^3M(n-3)+4+2+1.
+$$ 
+M(n) = 2^3M(n-3)+4+2+1.
 $$
 
 A clear pattern begins to emerge.
@@ -597,11 +591,7 @@ A clear pattern begins to emerge.
 After $k$ substitutions,
 
 $$
-M(n)
-=
-2^kM(n-k)
-+
-(2^k-1).
+M(n) = 2^kM(n-k) + (2^k-1).
 $$
 
 ---
