@@ -319,17 +319,14 @@ Each element of the output matrix is computed by multiplying one row of the firs
 
 The element
 
-$$
+$$ 
 C_{ij}
-$$
+$$ 
 
 is obtained by
 
-$$
-C_{ij}
-=
-\sum_{k=0}^{n-1}
-A_{ik}B_{kj}.
+$$ 
+C_{ij} = \sum_{k=0}^{n-1} A_{ik}B_{kj}.
 $$
 
 Thus,
